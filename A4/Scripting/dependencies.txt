@@ -4,3 +4,5 @@ pip install lizard
 pip install pandas
 pip install scipy
 pip install cliffs-delta
+pip install pyszz
+pip install requests
