@@ -8,12 +8,12 @@ from pydriller import Repository
 # (for analysis and validation)
 # REPO_PATH = 'https://github.com/apache/logging-log4j2.git'
 # so I'll be using a smaller repo because of limited resources
-REPO_PATH = 'https://github.com/google/python-fire.git'
+REPO_PATH = 'https://github.com/apache/commons-cli'
 
 # Defining the output file for the Cause Data
 OUTPUT_CSV = 'metrics_data.csv'
 
-LANGUAGE = 'python' # 'python', 'java'
+LANGUAGE = 'java' # 'python', 'java'
 
 # Defining the regex for Self Admitted Technical Debt (SATD)
 # this pattern looks for common SATD keywords in comments
