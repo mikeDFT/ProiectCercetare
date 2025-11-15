@@ -1,0 +1,567 @@
+[
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "5310d6a5e89764be783da594634e534dc831df7b",
+    "earliest_issue_date": "2006-04-18T15:11:18.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "c967bd6c9b990cc8b70fd6ef771e2d0829552337",
+    "earliest_issue_date": "2006-03-04T03:34:18.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "08002a783fd06ff75decd877e4e8bed1556c73f0",
+    "earliest_issue_date": "2006-03-04T03:34:18.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "d5c05da1d75d6926e56269a5bfefb8e763f1a9e4",
+    "earliest_issue_date": "2005-12-08T21:27:15.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "7e7e4d85577cd94e159a99160c357d1337494b44",
+    "earliest_issue_date": "2005-03-30T06:16:27.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "0bcfa8d31caf293b712a694906f511962d0d34fd",
+    "earliest_issue_date": "2007-01-17T11:22:34.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "8f46f467a33ace44ccd9f394910940b6c48a3827",
+    "earliest_issue_date": "2007-05-13T03:49:16.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "b0e1b80b6d4a10a9c9f46539bc4c7a3cce55886e",
+    "earliest_issue_date": "2005-10-11T02:06:11.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "2ff9573ffb08dd52ec3a55a49f2d77a1e94efbdf",
+    "earliest_issue_date": "2005-05-10T10:50:14.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "c155cebd4127367a7b649ca167c0c69284cc066b",
+    "earliest_issue_date": "2006-03-29T19:59:46.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "3880640ee6268a2ecb2912e1ae896153dc2229e5",
+    "earliest_issue_date": "2007-06-05T23:51:39.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "1545ae48a67ad7f2c18942f4c2dfaf9ab8f7eccd",
+    "earliest_issue_date": "2004-07-04T16:57:38.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "7220ac2f6b0dd525e5384e2d5708fb63475f836c",
+    "earliest_issue_date": "2007-06-29T06:49:36.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "08cf0f5d990cdc0daa251fd1a84d011e8cbecc9a",
+    "earliest_issue_date": "2007-06-29T06:49:36.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "97744806d59820b096fb502b1d51ca54b5d0921d",
+    "earliest_issue_date": "2007-06-29T06:56:40.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "bfe6bd8634895645aa71d6a6dc668545297d7413",
+    "earliest_issue_date": "2007-06-29T06:56:40.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "4cf1b71f9f9b7a102fafaa6e03825aa3eaffca7e",
+    "earliest_issue_date": "2004-07-04T16:57:38.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "c7efeafe0314840c8b688b7a161b44b388a70db0",
+    "earliest_issue_date": "2007-07-29T13:11:26.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "1b0a32df8c9d7011d01a27b5fc682f48714b0d9b",
+    "earliest_issue_date": "2007-08-06T14:16:04.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "4ee0d6c4f1b553858aeabf3ee6fb37d764f263e2",
+    "earliest_issue_date": "2006-07-09T00:05:42.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "4f407378c93b9e2a8e24c855e8bed5eb12bf7a06",
+    "earliest_issue_date": "2008-02-18T22:20:39.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "fea35870b69c0d37ab36ab6783edbc7aacc0842c",
+    "earliest_issue_date": "2008-01-16T17:06:11.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "bc4c9009dc179277dbf3eab6296f198d75034fb1",
+    "earliest_issue_date": "2008-04-30T09:00:38.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "d72a578a8949e4b1c437ec55997d8786836f139c",
+    "earliest_issue_date": "2008-05-27T21:35:39.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "8021d1259124c4f7e0bb54c44d16a30aca853ee6",
+    "earliest_issue_date": "2008-05-27T21:35:39.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "2b4fb79570bb7f14c8bfe8c634c0f7d9fe7d0af7",
+    "earliest_issue_date": "2008-04-30T09:00:38.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "e2ba946ea0e01c36c84f97f483e1d22cfd64b917",
+    "earliest_issue_date": "2007-08-17T16:48:57.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "538fb6889f0387a40b821cfb315685e929110736",
+    "earliest_issue_date": "2007-08-17T16:48:57.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "538fb6889f0387a40b821cfb315685e929110736",
+    "earliest_issue_date": "2006-04-18T15:17:42.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "20dfc60e4c04d9fd69fdedbcbe50020c7e798f3a",
+    "earliest_issue_date": "2007-07-22T07:25:11.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "5f6912337a7e7903dff33dd206a1d3d93db1c225",
+    "earliest_issue_date": "2008-04-30T09:00:38.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "c338c8aca40d43efda580057f6d41ba228e26ec1",
+    "earliest_issue_date": "2007-08-17T15:27:49.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "a93139165b160af1c908c85a06b0af6b3dda3387",
+    "earliest_issue_date": "2008-06-04T14:23:18.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "eed25612b11caf1f4e6e572e58db4306f31803c9",
+    "earliest_issue_date": "2003-03-05T17:21:15.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "f104dd060c6c88450ac9ee9eb818b26374512440",
+    "earliest_issue_date": "2006-07-28T09:49:39.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "cf06f677daf09348e0595b50dc19f7e32f1521b9",
+    "earliest_issue_date": "2008-07-23T20:29:05.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "9c5ce3501938cff01d78b7a1fff10a60abe9e0cf",
+    "earliest_issue_date": "2008-07-27T23:17:01.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "c8606251c904dfaf5303f71b788e12f7fff15fab",
+    "earliest_issue_date": "2008-07-28T08:19:04.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "b1331806960001da95424315b6103d755107b519",
+    "earliest_issue_date": "2008-07-28T08:19:04.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "99aa05af2bfef3980ad8f94230cd077e8d30c5ea",
+    "earliest_issue_date": "2008-07-28T09:23:08.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "9cd78b4c83df53ba302baadac4c976ca84f428f9",
+    "earliest_issue_date": "2008-01-23T15:26:05.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "6183eaa93eac3a365ba7630755c4664a8ea88633",
+    "earliest_issue_date": "2008-10-14T09:45:31.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "f564e7800a9a26e47a655391dda37a0f26e67a28",
+    "earliest_issue_date": "2008-10-14T09:45:31.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "880a9f6c45dbcb14215bb35de21fdbbfaeb89c2e",
+    "earliest_issue_date": "2008-07-25T12:21:23.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "6c740e79cb07ec9074b2c77822732c0678690ae9",
+    "earliest_issue_date": "2008-07-25T12:21:23.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "2ddaae14dd23643a4b5f71f8274534b0b34556a4",
+    "earliest_issue_date": "2008-07-25T12:21:23.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "84234a65638f0e9e4be73dfcccaa6530a5b571af",
+    "earliest_issue_date": "2008-07-25T12:21:23.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "60144879b0b43658ca645fadb32b109e3d71a2e0",
+    "earliest_issue_date": "2008-02-18T22:20:39.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "02dd7c20646bf67dcfb6f7da6beeb7cdffc6ac22",
+    "earliest_issue_date": "2008-07-25T12:21:23.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "6a585453d385449dc23d90479488f92f02cd6b83",
+    "earliest_issue_date": "2008-07-25T12:21:23.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "27cf61e22583db8e796e7c14f1f20fbc9538b1ef",
+    "earliest_issue_date": "2009-02-28T21:00:47.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "aa2434d301c49d100f50af544333886a6767ce9d",
+    "earliest_issue_date": "2009-03-12T23:02:56.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "f0fba7bff7de067e12a78169d1371f3773f3f5a7",
+    "earliest_issue_date": "2009-03-12T23:02:56.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "4c971f08861e8cefb8ca9ac20799bfdad4e973a4",
+    "earliest_issue_date": "2009-05-30T01:45:13.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "4c971f08861e8cefb8ca9ac20799bfdad4e973a4",
+    "earliest_issue_date": "2009-05-30T02:13:14.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "f43698527ef2b5ba15fe85d46d2d505418f68243",
+    "earliest_issue_date": "2009-05-30T13:24:15.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "f43698527ef2b5ba15fe85d46d2d505418f68243",
+    "earliest_issue_date": "2008-07-25T09:53:50.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "e7c2198454153e0d74535e21cafbf1583a92de55",
+    "earliest_issue_date": "2010-06-02T13:23:35.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "3433f467554985a6bd9bf530a4810376be6fe250",
+    "earliest_issue_date": "2010-06-15T23:54:24.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "20002f7f4e971349a1c95dd3b05846c5b824b65c",
+    "earliest_issue_date": "2009-06-10T12:54:28.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "5560a086886c4d6dba2c30eb75e57e3167765c6e",
+    "earliest_issue_date": "2010-06-16T17:59:44.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "324b7f901b91614927926a5bab1d9e0e2325f018",
+    "earliest_issue_date": "2010-06-17T07:37:21.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "324b7f901b91614927926a5bab1d9e0e2325f018",
+    "earliest_issue_date": "2010-06-16T18:14:46.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "4381ba54c845402f18760fb04ff1f6db1922f6b2",
+    "earliest_issue_date": "2009-07-31T22:00:49.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "4d2c8a22d1e1831858029b8ef225a07f4445a221",
+    "earliest_issue_date": "2010-06-19T18:17:14.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "777cb81088d47472df21a452edd5ba568d4b3fdf",
+    "earliest_issue_date": "2010-01-23T01:58:29.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "483f811dfefdc6bee162481425f261d983f15e4a",
+    "earliest_issue_date": "2010-07-21T13:21:39.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "b88c9ba0b2c8a8a21862d405bf24098f7037dbed",
+    "earliest_issue_date": "2010-09-18T18:46:31.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "4eb17f5ab2ee09cc00f4ce4d2e26cc7ddffa8cc9",
+    "earliest_issue_date": "2010-09-27T14:25:34.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "62a3b36efc78e53c233c2fb49cc8199c5eabec1d",
+    "earliest_issue_date": "2011-04-08T07:36:52.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "87c9813a79cde41b2f954688f15bd86588092c7f",
+    "earliest_issue_date": "2011-06-02T16:28:05.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "df52eee396b1e8ce24fd1ec34752e1049618255a",
+    "earliest_issue_date": "2011-12-12T02:52:29.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "46ad66ae8f1c805b40775e856d70277b669df6fb",
+    "earliest_issue_date": "2011-12-12T02:52:29.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "9ed70efb45a95b0327232d1f9329f777bc428da7",
+    "earliest_issue_date": "2013-02-11T15:28:18.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "faa6455a9a0bccf29d049f0b0958eb9b2e804fc3",
+    "earliest_issue_date": "2011-12-12T02:52:29.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "639e070cfe87ea05f3aa618553e7971ccfaec0b7",
+    "earliest_issue_date": "2011-12-12T02:52:29.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "b1ffe271a5f8a6ff7b6bf714a9b2631e7dc6bbb0",
+    "earliest_issue_date": "2013-07-04T15:14:00.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "812594f4d224485343ec38620defda28d8b388b9",
+    "earliest_issue_date": "2014-11-13T17:29:58.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "0a195067995244aff64008b556cd7113b3755930",
+    "earliest_issue_date": "2014-11-13T17:29:58.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "085a1538fa20d8e48faad49eaffd697f024bf1af",
+    "earliest_issue_date": "2015-05-21T16:28:57.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "afc13c445a4c80432e52d735685b272fadfeeddf",
+    "earliest_issue_date": "2016-06-09T19:21:38.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "a315e187908d184b1d40f9e7425bc65333a2d07a",
+    "earliest_issue_date": "2017-04-17T12:01:53.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "2c52075212094470def88dc8e2ebfc1940ce9f07",
+    "earliest_issue_date": "2017-04-17T12:01:53.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "0b453953fa5f55cf2e8fd034d4d55972deb7647a",
+    "earliest_issue_date": "2017-04-17T12:01:53.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "b0024d482050a08efc36c3cabee37c0af0e57a10",
+    "earliest_issue_date": "2018-02-26T10:45:57.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "44173949e8165537b201d4efd024e31e6e8b06eb",
+    "earliest_issue_date": "2015-06-22T14:09:15.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "330a19f88b45e28c3e226290598862dc8b1e4cf1",
+    "earliest_issue_date": "2023-06-29T17:11:17.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "a7d60f62fd83636a0aa05b252985f6f107b7e9c0",
+    "earliest_issue_date": "2023-01-23T09:52:16.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "379558822e41b749b968a9cd7ca90d371c927e30",
+    "earliest_issue_date": "2021-11-30T22:02:56.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "34278395b6115752774c3d16a00292591da2dde3",
+    "earliest_issue_date": "2023-01-23T09:52:16.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "0374deecea322be7500dd7164106b1bfe1dd0ce9",
+    "earliest_issue_date": "2021-11-30T22:02:56.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "e8e4efa781074e9531908c72c7afca4adc6b5631",
+    "earliest_issue_date": "2021-11-30T22:02:56.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "b88dd5fabec6f920c0eae29a5f499350eaf14b1b",
+    "earliest_issue_date": "2020-02-07T13:09:54.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "3ff0fe222321d8f5a2a77899fb768ed394c554ca",
+    "earliest_issue_date": "2021-11-30T22:02:56.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "ce86213e7e5aa10aa19194c4e172ca146b80c7fa",
+    "earliest_issue_date": "2023-11-02T02:40:01.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "ce86213e7e5aa10aa19194c4e172ca146b80c7fa",
+    "earliest_issue_date": "2021-11-15T14:35:47.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "4fd215277a60a111e67aa6749c9d6f2db932f7f9",
+    "earliest_issue_date": "2021-11-15T14:35:47.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "fbd01940d2e675fb1fd2a5b526f831bd0853ce55",
+    "earliest_issue_date": "2023-11-02T02:40:01.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "d90c0bf24daedd7f38844ef5b0f461a10ea99ed7",
+    "earliest_issue_date": "2023-11-02T02:40:01.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "2dac643fff43efcb7c42afca526e8af3938a60ba",
+    "earliest_issue_date": "2024-02-26T13:57:12.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "90b3f2e35a13720cd9eca45ca585d984398a1198",
+    "earliest_issue_date": "2024-02-26T13:57:12.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "cb334bdf9d9408669996ab01a710b444f0d0c8c6",
+    "earliest_issue_date": "2024-02-27T07:25:59.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "41b48ad66575245d5d9a211516bbbb486b6bc4bb",
+    "earliest_issue_date": "2024-02-27T07:25:59.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "a5acbe46dbf422925ae817d77b7f686baf5a564e",
+    "earliest_issue_date": "2024-03-02T18:35:32.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "fd309f30d8c014a490247c267deb5cd9859052c0",
+    "earliest_issue_date": "2024-03-02T18:35:32.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "c63265ba42aea420d476f9c410a3e651416d89f8",
+    "earliest_issue_date": "2024-05-11T10:34:21.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "933e95b1c0dbe5a969971da7003aa778edc01974",
+    "earliest_issue_date": "2024-05-29T11:52:27.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "bce0f6a9899830eaa5161ea6fd2af04d5679257b",
+    "earliest_issue_date": "2025-06-21T12:49:43.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "946ecc2bf9c9fadd09a1bd1853ca9f9fb128e946",
+    "earliest_issue_date": "2025-06-21T12:49:43.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "c07d4ec78a3df261f94816193544a9fd68c0cd84",
+    "earliest_issue_date": "2025-06-21T12:49:43.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "ff678b0ac3019e621d23b2eb2230096206baae78",
+    "earliest_issue_date": "2025-07-29T12:10:22.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "4e0cdd0f96762df26e6335be8a1ab1afd55234f1",
+    "earliest_issue_date": "2025-06-23T08:07:32.000+0000"
+  },
+  {
+    "repo_name": "apache/commons-cli",
+    "fix_commit_hash": "42be7926be5599342a812c170b03ab73f8cbb35c",
+    "earliest_issue_date": "2025-06-30T09:20:23.000+0000"
+  }
+]
