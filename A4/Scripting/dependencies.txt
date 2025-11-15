@@ -1,0 +1,6 @@
+In terminal:
+pip install PyDriller
+pip install lizard
+pip install pandas
+pip install scipy
+pip install cliffs-delta
