@@ -3,3 +3,6 @@
 # I'll be only analyzing commits from the past like 6 months anyway
 
 git clone --shallow-since="2025-05-01" https://github.com/apache/airflow.git
+
+# needs more time because of renamed commits
+git clone --shallow-since="2025-01-01" https://github.com/zxing/zxing
