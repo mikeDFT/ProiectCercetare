@@ -3,7 +3,14 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/../../.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/SZZ/commons-cli" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Chart.js" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SZZ/pyszz_v2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/airflow" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/commons-cli" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/commons-lang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flask" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/react" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/requests" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/zxing" vcs="Git" />
   </component>
 </project>
