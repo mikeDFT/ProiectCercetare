@@ -1,4 +1,3 @@
-In terminal:
 pip install PyDriller
 pip install lizard
 pip install pandas
