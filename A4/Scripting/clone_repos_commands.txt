@@ -1,0 +1,5 @@
+
+# the shallow copy (from 1st of May) is a smaller copy of the git repo
+# I'll be only analyzing commits from the past like 6 months anyway
+
+git clone --shallow-since="2025-05-01" https://github.com/apache/airflow.git

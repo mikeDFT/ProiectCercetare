@@ -1,0 +1,30 @@
+
+
+========================================================================================================================
+Module                                                                    TDR Score     Effort     Pain  Commits   Bugs
+------------------------------------------------------------------------------------------------------------------------
+src\main\java\org\apache\commons\cli                                       315849.5       6133     51.5       89      7
+src\main\java\org\apache\commons\cli\help                                   18164.0       1912      9.5       15      2
+------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+Module                                                                    TDR Score     Effort     Pain  Commits   Bugs
+------------------------------------------------------------------------------------------------------------------------
+src\main\java\org\apache\commons\lang3                                    2767800.0      31632     87.5      145     15
+src\main\java\org\apache\commons\lang3\time                                200984.0       7178     28.0       48      4
+src\main\java\org\apache\commons\lang3\reflect                             137826.0       4446     31.0       48      7
+src\main\java\org\apache\commons\lang3\text                                 73964.0       6724     11.0       20      1
+src\main\java\org\apache\commons\lang3\builder                              62112.0       7764      8.0       16      0
+src\main\java\org\apache\commons\lang3\function                             45780.5       1501     30.5       53      4
+src\main\java\org\apache\commons\lang3\mutable                              40194.0       1827     22.0       44      0
+src\main\java\org\apache\commons\lang3\concurrent                           30672.0       2556     12.0       24      0
+src\main\java\org\apache\commons\lang3\math                                 16160.0       3232      5.0       10      0
+src\main\java\org\apache\commons\lang3\tuple                                 5890.0        620      9.5       19      0
+src\main\java\org\apache\commons\lang3\text\translate                        4855.0        971      5.0       10      0
+src\main\java\org\apache\commons\lang3\stream                                1090.0        545      2.0        2      1
+src\main\java\org\apache\commons\lang3\compare                                837.0        279      3.0        4      1
+src\main\java\org\apache\commons\lang3\concurrent\locks                       718.0        359      2.0        4      0
+src\main\java\org\apache\commons\lang3\exception                              594.0       1188      0.5        1      0
+src\main\java\org\apache\commons\lang3\event                                  590.0        295      2.0        2      1
+src\main\java\org\apache\commons\lang3\util                                   239.0        478      0.5        1      0
+------------------------------------------------------------------------------------------------------------------------
