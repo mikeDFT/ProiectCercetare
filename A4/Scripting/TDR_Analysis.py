@@ -7,13 +7,20 @@ from collections import defaultdict
 
 # path to local repo
 # REPO_PATH = './commons-cli'
-# REPO_PATH = './airflow'
-REPO_PATH = './commons-lang'
+# REPO_PATH = './airflow' # couldn't run yet, has way too many commits and takes too much time
+# REPO_PATH = './commons-lang'
+# REPO_PATH = './requests'
+# REPO_PATH = './zxing'
+# REPO_PATH = './flask'
+# REPO_PATH = './react'
+REPO_PATH = './Chart.js'
 
 # time window for recent activity
 SINCE_DAYS = 180  # 6 months
 
 # effort proxy (LEP) "k-factor"
+# to decide how much to penalize complex code
+# Effort = NLOC + (k * CCN)
 K_PENALTY = 5
 
 # TDR-W Weights
@@ -24,9 +31,10 @@ W_BUG = 1.0
 # HBFM Bug-Finding Regex
 # Looks for "CLI-" (Apache JIRA key) or common fix keywords.
 BUG_REGEX = re.compile(  # for commons-lang
-	# 	r'\b(CLI-\d+)\b|fix(es|ed)?\b|bug\b|patch\b', # for commons-cli
-	# 	r'\b(AIRFLOW-\d+)\b|fix(es|ed)?\b|bug\b|patch\b', # for airflow
-	r'\b(LANG-\d+)\b|fix(es|ed)?\b|bug\b|patch\b',  # for commons-lang
+	# r'\b(CLI-\d+)\b|fix(es|ed)?\b|bug\b|patch\b', # for commons-cli
+	# r'\b(AIRFLOW-\d+)\b|fix(es|ed)?\b|bug\b|patch\b', # for airflow
+	# r'\b(LANG-\d+)\b|fix(es|ed)?\b|bug\b|patch\b',  # for commons-lang
+	r'\b(fix(es|ed)?\s*#\d+)\b|bug\b|patch\b',  # for requests, zxing, flask, react, chart.js (github issues)
 	
 	re.IGNORECASE
 )
@@ -49,11 +57,11 @@ EXCLUDE_PATTERNS = [
 
 def get_effort_scores(repo_path):
 	"""
-	A Proxy Model for Effort to Fix using Lizard
-	Calculates the LEP (Lizard Effort Proxy) score for each module
+	proxy model for Effort to Fix using Lizard
+	Calculates the Lizard Effort Proxy score for each module
 	Effort_Proxy = (Sum of NLOC) + (k * Sum of CCN)
 	"""
-	print("1/3: analyzing code effort with Lizard")
+	print("1/2: analyzing code effort with Lizard")
 	module_metrics = defaultdict(lambda: {'nloc': 0, 'ccn': 0})  # nloc = nr lines of code
 	
 	# normalize the repo_path to ensure correct prefix removing
@@ -65,7 +73,7 @@ def get_effort_scores(repo_path):
 		exclude_pattern=EXCLUDE_PATTERNS  # to make it a bit faster
 	)
 	
-	# Convert generator to list to check if it's empty
+	# convert generator to list to check if it's empty
 	analysis_list = list(analysis)
 	
 	if not analysis_list:
@@ -101,59 +109,48 @@ def get_effort_scores(repo_path):
 	return effort_scores
 
 
-def get_commit_counts(repo_path, since_date):
+def analyze_commit_history(repo_path, since_date):
 	"""
-	Measuring Recent Commits using PyDriller
-	Counts the total number of commits modifying each module.
+	Measuring Recent Commits (C) and Bugs (B) using PyDriller
 	"""
-	print("2/3: Analyzing recent commits with PyDriller")
+	print("2/2: Analyzing commit history with PyDriller")
 	module_commit_counts = defaultdict(int)
+	module_bug_counts = defaultdict(int)
 	commit_count = 0
+	bug_commit_count = 0
 	
 	try:
-		for commit in Repository(repo_path, since=since_date).traverse_commits():
+		for commit in Repository(repo_path, since=since_date, ).traverse_commits():
 			commit_count += 1
+			
+			# check if the commit message matches the bug heuristics
+			is_bug_commit = BUG_REGEX.search(commit.msg)
+			if is_bug_commit:
+				bug_commit_count += 1
+			
+			# loop through modified files
 			for mod in commit.modified_files:
 				filepath = mod.new_path or mod.old_path
 				if filepath:
 					module_path = os.path.dirname(filepath)
+					
+					# always increment the total commit count for the module
 					module_commit_counts[module_path] += 1
+					
+					# if it's a bug, also increment the bug count
+					if is_bug_commit:
+						module_bug_counts[module_path] += 1
 		
 		print(f"analyzed {commit_count} commits.")
-		return module_commit_counts
+		print(f"found {bug_commit_count} potential bug-fix commits.")
+		
+		# return both dictionaries
+		return module_commit_counts, module_bug_counts
 	
 	except Exception as e:
 		print(f"Error running PyDriller analysis: {e}")
 		print(f"make sure '{repo_path}' is a valid Git repository.")
-		return {}
-
-
-def get_bug_counts(repo_path, since_date):
-	"""
-	A Practical, Code-Based SZZ-Alternative (HBFM)
-	Counts commits that look like bug fixes based on the BUG_REGEX.
-	"""
-	print("3/3: Analyzing recent bug fixes (HBFM)")
-	module_bug_counts = defaultdict(int)
-	bug_commit_count = 0
-	
-	try:
-		for commit in Repository(repo_path, since=since_date).traverse_commits():
-			# check if the commit message matches the bug heuristics
-			if BUG_REGEX.search(commit.msg):
-				bug_commit_count += 1
-				for mod in commit.modified_files:
-					filepath = mod.new_path or mod.old_path
-					if filepath:
-						module_path = os.path.dirname(filepath)
-						module_bug_counts[module_path] += 1
-		
-		print(f"found {bug_commit_count} potential bug-fix commits.")
-		return module_bug_counts
-	
-	except Exception as e:
-		print(f"Error running PyDriller (bug) analysis: {e}")
-		return {}
+		return {}, {}
 
 
 def main():
@@ -171,8 +168,7 @@ def main():
 	
 	# gather all data
 	effort_data = get_effort_scores(REPO_PATH)
-	commit_data = get_commit_counts(REPO_PATH, since_date_obj)
-	bug_data = get_bug_counts(REPO_PATH, since_date_obj)
+	commit_data, bug_data = analyze_commit_history(REPO_PATH, since_date_obj)
 	
 	if not effort_data and not commit_data and not bug_data:
 		print("\nAnalysis failed. No data gathered")
