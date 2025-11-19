@@ -1,0 +1,94 @@
+
+https://github.com/apache/commons-cli
+========================================================================================================================
+Module                                                                    TDR Score     Effort     Pain  Commits   Bugs
+------------------------------------------------------------------------------------------------------------------------
+src\main\java\org\apache\commons\cli                                       315849.5       6133     51.5       89      7
+src\main\java\org\apache\commons\cli\help                                   18164.0       1912      9.5       15      2
+------------------------------------------------------------------------------------------------------------------------
+
+https://github.com/apache/commons-lang
+========================================================================================================================
+Module                                                                    TDR Score     Effort     Pain  Commits   Bugs
+------------------------------------------------------------------------------------------------------------------------
+src\main\java\org\apache\commons\lang3                                    2767800.0      31632     87.5      145     15
+src\main\java\org\apache\commons\lang3\time                                200984.0       7178     28.0       48      4
+src\main\java\org\apache\commons\lang3\reflect                             137826.0       4446     31.0       48      7
+src\main\java\org\apache\commons\lang3\text                                 73964.0       6724     11.0       20      1
+src\main\java\org\apache\commons\lang3\builder                              62112.0       7764      8.0       16      0
+src\main\java\org\apache\commons\lang3\function                             45780.5       1501     30.5       53      4
+src\main\java\org\apache\commons\lang3\mutable                              40194.0       1827     22.0       44      0
+src\main\java\org\apache\commons\lang3\concurrent                           30672.0       2556     12.0       24      0
+src\main\java\org\apache\commons\lang3\math                                 16160.0       3232      5.0       10      0
+src\main\java\org\apache\commons\lang3\tuple                                 5890.0        620      9.5       19      0
+src\main\java\org\apache\commons\lang3\text\translate                        4855.0        971      5.0       10      0
+src\main\java\org\apache\commons\lang3\stream                                1090.0        545      2.0        2      1
+src\main\java\org\apache\commons\lang3\compare                                837.0        279      3.0        4      1
+src\main\java\org\apache\commons\lang3\concurrent\locks                       718.0        359      2.0        4      0
+src\main\java\org\apache\commons\lang3\exception                              594.0       1188      0.5        1      0
+src\main\java\org\apache\commons\lang3\event                                  590.0        295      2.0        2      1
+src\main\java\org\apache\commons\lang3\util                                   239.0        478      0.5        1      0
+------------------------------------------------------------------------------------------------------------------------
+
+https://github.com/psf/requests
+========================================================================================================================
+Module                                                                    TDR Score     Effort     Pain  Commits   Bugs
+------------------------------------------------------------------------------------------------------------------------
+src\requests                                                                22596.0       6456      3.5        7      0
+------------------------------------------------------------------------------------------------------------------------
+
+https://github.com/zxing/zxing
+========================================================================================================================
+Module                                                                    TDR Score     Effort     Pain  Commits   Bugs
+------------------------------------------------------------------------------------------------------------------------
+core\src\main\java\com\google\zxing                                          3684.0       1842      2.0        4      0
+core\src\main\java\com\google\zxing\oned                                     3593.5       7187      0.5        1      0
+------------------------------------------------------------------------------------------------------------------------
+
+https://github.com/pallets/flask
+========================================================================================================================
+Module                                                                    TDR Score     Effort     Pain  Commits   Bugs
+------------------------------------------------------------------------------------------------------------------------
+src\flask                                                                   43624.0       5453      8.0       16      0
+src\flask\sansio                                                             8703.0       1934      4.5        9      0
+src\flask\json                                                                302.5        605      0.5        1      0
+------------------------------------------------------------------------------------------------------------------------
+
+https://github.com/facebook/react
+========================================================================================================================
+Module                                                                    TDR Score     Effort     Pain  Commits   Bugs
+------------------------------------------------------------------------------------------------------------------------
+packages\react-reconciler\src                                             6024431.0      59354    101.5      171     16
+packages\react-server\src                                                 3169460.0      22639    140.0      164     58
+compiler\packages\babel-plugin-react-compiler\src\HIR                      844984.0      10696     79.0      136     11
+packages\react-client\src                                                  762454.0       9902     77.0       84     35
+packages\react-devtools-shared\src\backend\fiber                           645028.0      13724     47.0       80      7
+packages\react-devtools-shared\src\devtools\views\Components               461155.0       6190     74.5      133      8
+packages\react-dom-bindings\src\client                                     341082.0      18949     18.0       32      2
+compiler\packages\babel-plugin-react-compiler\src\Validation               293002.5       5581     52.5      101      2
+compiler\packages\babel-plugin-react-compiler\src\ReactiveScopes           265914.0      10428     25.5       39      6
+packages\react-devtools-shared\src\devtools\views\SuspenseTab              214697.5       2735     78.5      141      8
+compiler\packages\babel-plugin-react-compiler\src\Inference                210429.0       4086     51.5       97      3
+packages\react-devtools-shared\src                                         154980.0       4305     36.0       62      5
+packages\shared                                                            141968.0       3736     38.0       60      8
+packages\react-native-renderer\src                                          80992.0       5062     16.0       32      0
+compiler\packages\babel-plugin-react-compiler\src\Entrypoint                77409.0       2867     27.0       50      2
+flow-typed\environments                                                     76495.0      15299      5.0       10      0
+packages\react-server-dom-turbopack\src\client                              69920.0       1748     40.0       36     22
+packages\react-dom-bindings\src\server                                      65392.5       8719      7.5       13      1
+packages\react\src                                                          58905.0       2310     25.5       31     10
+compiler\apps\playground\components\Editor                                  54636.0        942     58.0       50     33
+------------------------------------------------------------------------------------------------------------------------
+
+https://github.com/chartjs/Chart.js
+========================================================================================================================
+Module                                                                    TDR Score     Effort     Pain  Commits   Bugs
+------------------------------------------------------------------------------------------------------------------------
+src\core                                                                    14462.0       7231      2.0        2      1
+src\helpers                                                                  5378.0       5378      1.0        2      0
+src\controllers                                                              3256.0       1628      2.0        2      1
+src\types                                                                    2056.0       1028      2.0        4      0
+src\plugins\plugin.filler                                                     641.0       1282      0.5        1      0
+------------------------------------------------------------------------------------------------------------------------
+
+
