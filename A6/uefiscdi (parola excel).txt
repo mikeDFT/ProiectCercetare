@@ -1,1 +1,4 @@
 https://uefiscdi.gov.ro/scientometrie-baze-de-date
+
+parola excel:
+uefiscdi
