@@ -166,9 +166,11 @@ TDR-W serves as the quantitative engine for a ``Prioritization Matrix''. By plot
 
 \subsection{Future work}
 Future work should focus on:
-1) \textbf{Validating the effort formula:} Compare LEP scores against real developer effort (in hours) for refactoring tasks to tune the $k$-factor.
-2) \textbf{Improving the bug-finding script:} Use issue-tracker APIs (Jira/GitHub) to confirm issue types (ex: ensure issue ``AIRFLOW-123'' is Type=Bug), eliminating false positives.
-3) \textbf{A/B testing:} Run a longitudinal experiment where Team A uses traditional prioritization and Team B uses TDR-W. If Team B shows shorter lead times and fewer bugs, the framework is proven.
+\begin{enumerate}
+    \item \textbf{Validating the effort formula:} Compare LEP scores against real developer effort (in hours) for refactoring tasks to tune the $k$-factor.
+    \item \textbf{Improving the bug-finding script:} Use issue-tracker APIs (Jira/GitHub) to confirm issue types (ex: ensure issue ``AIRFLOW-123'' is Type=Bug), eliminating false positives.
+    \item \textbf{A/B testing:} Run a longitudinal experiment where Team A uses traditional prioritization and Team B uses TDR-W. If Team B shows shorter lead times and fewer bugs, the framework is proven.
+\end{enumerate}
 
 \begin{thebibliography}{00}
 
